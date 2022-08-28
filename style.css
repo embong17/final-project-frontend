@@ -1,11 +1,12 @@
 
 
 .container{
-    max-width:15112px; height:982px; margin:0 70px
+    max-width:15112px; height:1200px; margin:0 70px
 }
 
 .top-wrapper{
-    background-color:#EAEBE2;
+    background-color:#EAEBE2; 
+    
 }
 
 .logo-nav{
@@ -17,7 +18,7 @@
 
 .nav-bar{
     padding-top:60px;  
-    display:flex;
+    display:flex; 
 }
 
 .nav-bar li{
@@ -25,11 +26,15 @@
 }
 
 .home-btn{
-    width:80px;
+    height:35px;
 }
 
 .movies-btn{
     width:100px;
+}
+
+.series-btn{
+    width:78px;
 }
 
 .nav-bar li:hover{
@@ -41,12 +46,16 @@
 }
 
 .home-button{
-    padding-left:150px;
+    padding-left:110px;
 }
 
-.search-movie{
-   float:right; 
+.series-button{
+    padding-left:60px;
 }
+
+/* .search-movie{
+   position:relative; right:20px;
+} */
 /* .movie-image{
     float:left; 
 } */
@@ -54,36 +63,71 @@
     width:100%;
 }
 .movie-image{
-    width:50%; float:left;
+    width:60%; float:left;
 }
 
-.desc-section{
-    width:50%; float:right;
-}
+
 .main-movie{
-    max-width:700px; padding-top:80px; padding-bottom:40px;
+    max-width:850px; padding-top:80px; padding-bottom:40px;
 }
 
 .movie-review img{
-    width:190px; margin-left:25px; 
+    width:250px; margin-left:25px; 
 }
 
 .review-image1:hover{
-    transition: 1s all; width:200px; opacity:0.8;
+    transition: 1s all; width:270px; opacity:0.8;
 }
 
 .search-movie{
     position:relative; left:630px;
 }
 .review-image2:hover{
-    transition: 1s all; width:200px; opacity:0.8;
+    transition: 1s all; width:270px; opacity:0.8;
 }
 
 .play-image:hover{
-    transition: 1s all; width:200px; opacity:0.8;
+    transition: 1s all; width:270px; opacity:0.8;
+}
+
+.desc-section{
+    width:40%; float:right;
+
 }
 
 .movie-title{
-    width:400px;
-    padding-top:80px;
+    width:600px;
+    padding-top:80px;  
+}
+
+.rating-movie{
+    height:68px;
+}
+
+.synopsis{
+    width:590px;
+}
+
+.desc-section img{
+padding-bottom:33px;
+}
+
+.movie-button{
+    padding-top:20px;
+}
+
+.watch-button{
+    width:260px; opacity:1;
+}
+
+.watch-button:hover{
+    transition:1s all; width:280px; opacity:0.8;
+}
+
+.watchlist-button{
+    width:260px; opacity:1; padding-left:50px;
+}
+
+.watchlist-button:hover{
+    transition:1s all; width:280px; opacity:0.8;
 }
