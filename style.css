@@ -1,7 +1,7 @@
 
 
 .container{
-    max-width:15112px; height:1200px; margin:0 70px
+    min-width:1170px; height:1200px; margin:0 70px
 }
 
 .top-wrapper{
@@ -53,9 +53,10 @@
     padding-left:60px;
 }
 
-/* .search-movie{
-   position:relative; right:20px;
-} */
+.search-movie{
+   height:45px; padding-left: 470px;
+}
+
 /* .movie-image{
     float:left; 
 } */
@@ -79,9 +80,7 @@
     transition: 1s all; width:270px; opacity:0.8;
 }
 
-.search-movie{
-    position:relative; left:630px;
-}
+
 .review-image2:hover{
     transition: 1s all; width:270px; opacity:0.8;
 }
